@@ -158,7 +158,7 @@ class IOSSettingsTileState extends State<IOSSettingsTile> {
               data: IconTheme.of(context)
                   .copyWith(color: theme.themeData.leadingIconsColor),
               child: Icon(
-                CupertinoIcons.chevron_forward,
+                CupertinoIcons.forward,
                 size: 18 * scaleFactor,
               ),
             ),
